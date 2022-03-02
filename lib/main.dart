@@ -54,6 +54,7 @@ class MyAppState extends State<MyApp> {
           // Answer(answerQuestion),
           //Answer(answerQuestion),
           //Answer(answerQuestion),
+          //list
           ...(questions[questionIndex]['answers'] as List<String>).map((answer) {
             return Answer(answerQuestion,answer);
           }).toList(),
